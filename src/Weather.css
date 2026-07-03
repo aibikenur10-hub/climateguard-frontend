@@ -1,0 +1,77 @@
+.weather-card {
+  background: var(--surface2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  animation: fadeUp 0.3s ease-out;
+}
+
+.weather-card.loading {
+  font-size: 12px;
+  color: var(--text3);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.weather-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.weather-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.weather-temp-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-temp {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text);
+  line-height: 1;
+}
+
+.weather-desc {
+  font-size: 12px;
+  color: var(--text2);
+  text-transform: capitalize;
+  margin-top: 2px;
+}
+
+.weather-stats {
+  display: flex;
+  gap: 16px;
+}
+
+.weather-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.weather-stat-label {
+  font-size: 10px;
+  color: var(--text3);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.weather-stat-val {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  font-family: 'JetBrains Mono', monospace;
+}
+.weather-title { font-size: 11px; font-weight: 600; color: var(--text3); font-family: "JetBrains Mono", monospace; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 10px; }

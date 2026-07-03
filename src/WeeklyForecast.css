@@ -1,0 +1,87 @@
+.weekly-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 24px 28px;
+  animation: fadeUp 0.3s ease-out;
+}
+
+.weekly-region {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+.weekly-loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+  font-size: 13px;
+  color: var(--text3);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.weekly-weather-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.weekly-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.weekly-stat-val {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text);
+}
+
+.weekly-stat-label {
+  font-size: 10px;
+  color: var(--text3);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.weekly-risks {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.weekly-risk-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.1em;
+  padding: 5px 14px;
+  border-radius: 100px;
+}
+
+.weekly-prediction {
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--text2);
+  white-space: pre-wrap;
+  margin-bottom: 12px;
+}
+
+.weekly-based {
+  font-size: 11px;
+  color: var(--text3);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.06em;
+}
